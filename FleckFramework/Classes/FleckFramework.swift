@@ -2,12 +2,12 @@
 //  FleckFramework.swift
 //  FleckFramework
 //
-//  Created by AKSA SDS on 25/06/2019.
+//  Created by AKSA SDS on 27/06/2019.
 //
-import  UIKit
 
 import Foundation
- class FleckFramework  {
+import UIKit
+class FleckFramework  {
     public static func navigateToViewConroller(viewconroller: UIViewController, fingerNumber:Int, cnicData:String){
         let storyBoard = UIStoryboard(name : "Main", bundle: nil)
         let cameraController = storyBoard.instantiateViewController(withIdentifier: "FleckCameraViewController") as? FleckCameraViewController

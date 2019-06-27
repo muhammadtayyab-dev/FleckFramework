@@ -16,10 +16,10 @@
 		9156BA9F6DF6734D76EA71716ABB5459 /* Pods-FleckFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8CB0FBDCD20B3773898D3EE2DE37F0 /* Pods-FleckFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E5B041EE09CC532CC58596C2BC51675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AA33363C22C4F2E100514AB7 /* FleckCameraViewController.xib in Headers */ = {isa = PBXBuildFile; fileRef = AA60735B22BFA93400E8C6DD /* FleckCameraViewController.xib */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA33363E22C502B200514AB7 /* FleckFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA33363D22C502B200514AB7 /* FleckFramework.swift */; };
 		AA60735C22BFA93400E8C6DD /* FleckCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA60735922BFA93400E8C6DD /* FleckCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA60735D22BFA93400E8C6DD /* FleckCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA60735A22BFA93400E8C6DD /* FleckCameraViewController.m */; };
 		AA60735E22BFA93400E8C6DD /* FleckCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA60735B22BFA93400E8C6DD /* FleckCameraViewController.xib */; };
-		AAD4D1FC22C20147001F7B53 /* FleckFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD4D1FB22C20147001F7B53 /* FleckFramework.swift */; };
 		ED4BD1B73A2D9F237F6469FEF374B9E7 /* Pods-FleckFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E4125744C440931A5C3EAA85950D26 /* Pods-FleckFramework_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -64,10 +64,10 @@
 		9DB754BB2420D11D7C8226D6294950EE /* FleckFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FleckFramework.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		A7C3A027BD7F7B8D659C4E0059339E8F /* Pods-FleckFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FleckFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A8955D3202E13554C961EE4AA4EB47C4 /* FleckFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FleckFramework.xcconfig; sourceTree = "<group>"; };
+		AA33363D22C502B200514AB7 /* FleckFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FleckFramework.swift; path = FleckFramework/Classes/FleckFramework.swift; sourceTree = "<group>"; };
 		AA60735922BFA93400E8C6DD /* FleckCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FleckCameraViewController.h; path = FleckFramework/Classes/FleckCameraViewController.h; sourceTree = "<group>"; };
 		AA60735A22BFA93400E8C6DD /* FleckCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FleckCameraViewController.m; path = FleckFramework/Classes/FleckCameraViewController.m; sourceTree = "<group>"; };
 		AA60735B22BFA93400E8C6DD /* FleckCameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FleckCameraViewController.xib; path = FleckFramework/Classes/FleckCameraViewController.xib; sourceTree = "<group>"; };
-		AAD4D1FB22C20147001F7B53 /* FleckFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleckFramework.swift; sourceTree = "<group>"; };
 		B2E4125744C440931A5C3EAA85950D26 /* Pods-FleckFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FleckFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		B751DB10671AA9F05341C03F21ED24CD /* Pods-FleckFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleckFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BFADEE5FB220034A66CF3F87DF977010 /* Pods-FleckFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleckFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 				AA60735922BFA93400E8C6DD /* FleckCameraViewController.h */,
 				AA60735A22BFA93400E8C6DD /* FleckCameraViewController.m */,
 				AA60735B22BFA93400E8C6DD /* FleckCameraViewController.xib */,
-				AAD4D1FB22C20147001F7B53 /* FleckFramework.swift */,
+				AA33363D22C502B200514AB7 /* FleckFramework.swift */,
 			);
 			name = FleckFramework;
 			path = ../..;
@@ -400,7 +400,7 @@
 			files = (
 				1E5456EB25625E6E450C9A0EFB5A720F /* FleckFramework-dummy.m in Sources */,
 				AA60735D22BFA93400E8C6DD /* FleckCameraViewController.m in Sources */,
-				AAD4D1FC22C20147001F7B53 /* FleckFramework.swift in Sources */,
+				AA33363E22C502B200514AB7 /* FleckFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
