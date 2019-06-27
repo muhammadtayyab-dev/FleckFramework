@@ -1,0 +1,22 @@
+{
+  "name": "FleckFramework",
+  "version": "0.1.0",
+  "summary": "A short description of FleckFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/software.developer93@gmail.com/FleckFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "software.developer93@gmail.com": "software.developer93@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/software.developer93@gmail.com/FleckFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FleckFramework/Classes/**/*"
+}

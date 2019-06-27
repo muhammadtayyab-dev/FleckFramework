@@ -21,16 +21,21 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/software.developer93@gmail.com/FleckFramework'
+  s.homepage         = 'https://github.com/Invisible1/FleckFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'software.developer93@gmail.com' => 'software.developer93@gmail.com' }
-  s.source           = { :git => 'https://github.com/software.developer93@gmail.com/FleckFramework.git', :tag => s.version.to_s }
+  s.author           = { 'Tayyab AKSA' => 'software.developer93@gmail.com' }
+  s.source           = { :git => 'https://github.com/Invisible1/FleckFramework.git' } #, :tag => s.version.to_s
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'FleckFramework/Classes/**/*'
+  
+  s.resource_bundles = {
+    'FleckFramework' => ['FleckFramework/Classes/**/*.{storyboard,xib}']
+  }
+  s.requires_arc = true
   
   # s.resource_bundles = {
   #   'FleckFramework' => ['FleckFramework/Assets/*.png']

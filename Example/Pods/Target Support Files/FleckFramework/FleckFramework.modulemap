@@ -1,0 +1,6 @@
+framework module FleckFramework {
+  umbrella header "FleckFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

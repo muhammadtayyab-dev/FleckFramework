@@ -1,0 +1,16 @@
+PODS:
+  - FleckFramework (0.1.0)
+
+DEPENDENCIES:
+  - FleckFramework (from `../`)
+
+EXTERNAL SOURCES:
+  FleckFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FleckFramework: 2b97d62ca56966914396266361162770c36c0147
+
+PODFILE CHECKSUM: 1c3ab811d45ad7e8e3e84a797007f470306e289f
+
+COCOAPODS: 1.7.2
