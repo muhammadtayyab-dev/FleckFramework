@@ -15,6 +15,7 @@
 		7A3F4B907413D476B058C02640D19B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9156BA9F6DF6734D76EA71716ABB5459 /* Pods-FleckFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8CB0FBDCD20B3773898D3EE2DE37F0 /* Pods-FleckFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E5B041EE09CC532CC58596C2BC51675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AA33363C22C4F2E100514AB7 /* FleckCameraViewController.xib in Headers */ = {isa = PBXBuildFile; fileRef = AA60735B22BFA93400E8C6DD /* FleckCameraViewController.xib */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA60735C22BFA93400E8C6DD /* FleckCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA60735922BFA93400E8C6DD /* FleckCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA60735D22BFA93400E8C6DD /* FleckCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA60735A22BFA93400E8C6DD /* FleckCameraViewController.m */; };
 		AA60735E22BFA93400E8C6DD /* FleckCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA60735B22BFA93400E8C6DD /* FleckCameraViewController.xib */; };
@@ -245,6 +246,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA33363C22C4F2E100514AB7 /* FleckCameraViewController.xib in Headers */,
 				AA60735C22BFA93400E8C6DD /* FleckCameraViewController.h in Headers */,
 				2A16C38D9DB33E93CABF40708161CCC5 /* FleckFramework-umbrella.h in Headers */,
 			);
