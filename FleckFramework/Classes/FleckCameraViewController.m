@@ -18,6 +18,15 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+- (id)init
+{
+    self = [super initWithNibName:@"FleckCameraViewController" bundle:nil];
+    if (self!=nil){
+        
+    }
+    return self;
+}
+
 /*
 #pragma mark - Navigation
 
