@@ -1,23 +1,22 @@
 //
-//  FleckCameraViewController.m
+//  TestViewController.m
 //  FleckFramework
 //
-//  Created by AKSA SDS on 23/06/2019.
+//  Created by AKSA SDS on 27/06/2019.
 //
 
-#import "FleckCameraViewController.h"
+#import "TestViewController.h"
 
-@interface FleckCameraViewController ()
+@interface TestViewController ()
 
 @end
 
-@implementation FleckCameraViewController
+@implementation TestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
-
 
 /*
 #pragma mark - Navigation
