@@ -107,7 +107,6 @@
 		426E73DDCC640A0A0DC5CA973948F192 /* Pods-FleckFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FleckFramework_Example.modulemap"; sourceTree = "<group>"; };
 		521D15B5363A1DB9FD1E374C63DCB389 /* Pods-FleckFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FleckFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		529989A044424FA7CA1F8075059D3EF6 /* Pods-FleckFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FleckFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		5CCFBF3BD0EC6C997112C3D3808E3851 /* Pods_FleckFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FleckFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CEC3030F585418D110DA55691752488 /* FleckFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FleckFramework.modulemap; sourceTree = "<group>"; };
 		74CDF70260E2389486AC512844FDA31D /* FleckFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FleckFramework-dummy.m"; sourceTree = "<group>"; };
 		79009B39327E11B47EB5E4CA51F8AF43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -179,7 +178,6 @@
 		C2096335B5FFBFF005FEAD451FE393A7 /* FleckFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FleckFramework-umbrella.h"; sourceTree = "<group>"; };
 		C222B0D08288F1040F40B3432319808C /* Pods-FleckFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FleckFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D291A8AB1AECC25FF09F056D1E6DF0B4 /* FleckFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FleckFramework-Info.plist"; sourceTree = "<group>"; };
-		F2B38930C612D6C854A095D671BC629E /* Pods_FleckFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FleckFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F70A8057385F842D7C7E6F5C227420 /* Pods-FleckFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FleckFramework_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -218,8 +216,6 @@
 			isa = PBXGroup;
 			children = (
 				1CA02E10A55D4C0C1E311B2FB64F8A1F /* FleckFramework.framework */,
-				F2B38930C612D6C854A095D671BC629E /* Pods_FleckFramework_Example.framework */,
-				5CCFBF3BD0EC6C997112C3D3808E3851 /* Pods_FleckFramework_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -499,7 +495,6 @@
 			);
 			name = "Pods-FleckFramework_Example";
 			productName = "Pods-FleckFramework_Example";
-			productReference = F2B38930C612D6C854A095D671BC629E /* Pods_FleckFramework_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		530765E403EF0146ACF6A8F16B5B91BB /* Pods-FleckFramework_Tests */ = {
@@ -518,7 +513,6 @@
 			);
 			name = "Pods-FleckFramework_Tests";
 			productName = "Pods-FleckFramework_Tests";
-			productReference = 5CCFBF3BD0EC6C997112C3D3808E3851 /* Pods_FleckFramework_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F4B98A770DC8E476DE3522043DAADD71 /* FleckFramework */ = {
@@ -553,7 +547,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1006,7 +1000,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
