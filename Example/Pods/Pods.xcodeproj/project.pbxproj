@@ -14,12 +14,65 @@
 		5AA692E36F033A4DDBB27622798C2B1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		7A3F4B907413D476B058C02640D19B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9156BA9F6DF6734D76EA71716ABB5459 /* Pods-FleckFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8CB0FBDCD20B3773898D3EE2DE37F0 /* Pods-FleckFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E5B041EE09CC532CC58596C2BC51675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AA33363C22C4F2E100514AB7 /* FleckCameraViewController.xib in Headers */ = {isa = PBXBuildFile; fileRef = AA60735B22BFA93400E8C6DD /* FleckCameraViewController.xib */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA33363E22C502B200514AB7 /* FleckFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA33363D22C502B200514AB7 /* FleckFramework.swift */; };
+		AA3336D222C5F2C700514AB7 /* FRFXLLExport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA33364E22C5F2C700514AB7 /* FRFXLLExport.cpp */; };
+		AA3336D322C5F2C700514AB7 /* FRFXLL.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33364F22C5F2C700514AB7 /* FRFXLL.h */; };
+		AA3336D422C5F2C700514AB7 /* fjfx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA33365022C5F2C700514AB7 /* fjfx.cpp */; };
+		AA3336D522C5F2C700514AB7 /* FRFXLLCreateFeatureSetFromRaw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA33365122C5F2C700514AB7 /* FRFXLLCreateFeatureSetFromRaw.cpp */; };
+		AA3336D622C5F2C700514AB7 /* assignment.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365322C5F2C700514AB7 /* assignment.h */; };
+		AA3336D722C5F2C700514AB7 /* FingerImageRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365422C5F2C700514AB7 /* FingerImageRecord.h */; };
+		AA3336D822C5F2C700514AB7 /* freeman.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365522C5F2C700514AB7 /* freeman.h */; };
+		AA3336D922C5F2C700514AB7 /* dpTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365622C5F2C700514AB7 /* dpTypes.h */; };
+		AA3336DA22C5F2C700514AB7 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365722C5F2C700514AB7 /* version.h */; };
+		AA3336DB22C5F2C700514AB7 /* dpError.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365822C5F2C700514AB7 /* dpError.h */; };
+		AA3336DC22C5F2C700514AB7 /* ScaleFactors.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365922C5F2C700514AB7 /* ScaleFactors.h */; };
+		AA3336DD22C5F2C700514AB7 /* settings.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365A22C5F2C700514AB7 /* settings.h */; };
+		AA3336DE22C5F2C700514AB7 /* _epilog.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365B22C5F2C700514AB7 /* _epilog.h */; };
+		AA3336DF22C5F2C700514AB7 /* intmath.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365C22C5F2C700514AB7 /* intmath.h */; };
+		AA3336E022C5F2C700514AB7 /* matchData.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365D22C5F2C700514AB7 /* matchData.h */; };
+		AA3336E122C5F2C700514AB7 /* _range_errors.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365E22C5F2C700514AB7 /* _range_errors.h */; };
+		AA3336E222C5F2C700514AB7 /* block_fft.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33365F22C5F2C700514AB7 /* block_fft.h */; };
+		AA3336E322C5F2C700514AB7 /* _cstdlib.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366022C5F2C700514AB7 /* _cstdlib.h */; };
+		AA3336E422C5F2C700514AB7 /* fixed_allocator.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366122C5F2C700514AB7 /* fixed_allocator.h */; };
+		AA3336E522C5F2C700514AB7 /* member_comp.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366222C5F2C700514AB7 /* member_comp.h */; };
+		AA3336E622C5F2C700514AB7 /* extract_minutia.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366322C5F2C700514AB7 /* extract_minutia.h */; };
+		AA3336E722C5F2C700514AB7 /* static_assert.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366422C5F2C700514AB7 /* static_assert.h */; };
+		AA3336E822C5F2C700514AB7 /* user_config.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366522C5F2C700514AB7 /* user_config.h */; };
+		AA3336E922C5F2C700514AB7 /* serializeFpData.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366622C5F2C700514AB7 /* serializeFpData.h */; };
+		AA3336EA22C5F2C700514AB7 /* _system.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366722C5F2C700514AB7 /* _system.h */; };
+		AA3336EB22C5F2C700514AB7 /* imresize.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366822C5F2C700514AB7 /* imresize.h */; };
+		AA3336EC22C5F2C700514AB7 /* FeatureExtraction.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366922C5F2C700514AB7 /* FeatureExtraction.h */; };
+		AA3336ED22C5F2C700514AB7 /* integer_limits.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366A22C5F2C700514AB7 /* integer_limits.h */; };
+		AA3336EE22C5F2C700514AB7 /* fft_enhance.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366B22C5F2C700514AB7 /* fft_enhance.h */; };
+		AA3336EF22C5F2C700514AB7 /* IncludeFirst.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366C22C5F2C700514AB7 /* IncludeFirst.h */; };
+		AA3336F022C5F2C700514AB7 /* orimap.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366D22C5F2C700514AB7 /* orimap.h */; };
+		AA3336F122C5F2C700514AB7 /* dpfr.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366E22C5F2C700514AB7 /* dpfr.h */; };
+		AA3336F222C5F2C700514AB7 /* diagnostics.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33366F22C5F2C700514AB7 /* diagnostics.h */; };
+		AA3336F322C5F2C700514AB7 /* delay.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367022C5F2C700514AB7 /* delay.h */; };
+		AA3336F422C5F2C700514AB7 /* top_n.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367122C5F2C700514AB7 /* top_n.h */; };
+		AA3336F522C5F2C700514AB7 /* conv2.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367222C5F2C700514AB7 /* conv2.h */; };
+		AA3336F622C5F2C700514AB7 /* biffilt.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367322C5F2C700514AB7 /* biffilt.h */; };
+		AA3336F722C5F2C700514AB7 /* complex.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367422C5F2C700514AB7 /* complex.h */; };
+		AA3336F822C5F2C700514AB7 /* stl_armcc.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367522C5F2C700514AB7 /* stl_armcc.h */; };
+		AA3336F922C5F2C700514AB7 /* deserializeFpData.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367622C5F2C700514AB7 /* deserializeFpData.h */; };
+		AA3336FA22C5F2C700514AB7 /* CreateFtrSet.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367722C5F2C700514AB7 /* CreateFtrSet.h */; };
+		AA3336FB22C5F2C700514AB7 /* _cmath.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367822C5F2C700514AB7 /* _cmath.h */; };
+		AA3336FC22C5F2C700514AB7 /* FRFXLLCreateContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA33367922C5F2C700514AB7 /* FRFXLLCreateContext.cpp */; };
+		AA3336FD22C5F2C700514AB7 /* FRFXLL_Results.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367A22C5F2C700514AB7 /* FRFXLL_Results.h */; };
+		AA3336FE22C5F2C700514AB7 /* fjfx.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AA33367B22C5F2C700514AB7 /* fjfx.hpp */; };
+		AA3336FF22C5F2C700514AB7 /* Object.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367C22C5F2C700514AB7 /* Object.h */; };
+		AA33370022C5F2C700514AB7 /* FRFXLLCreateFeatureSetInPlaceFromRaw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA33367D22C5F2C700514AB7 /* FRFXLLCreateFeatureSetInPlaceFromRaw.cpp */; };
+		AA33370122C5F2C700514AB7 /* FRFXLLCreateLibraryContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA33367E22C5F2C700514AB7 /* FRFXLLCreateLibraryContext.cpp */; };
+		AA33370222C5F2C700514AB7 /* FpDataObj.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367F22C5F2C700514AB7 /* FpDataObj.h */; };
+		AA345BB622CB678200178AED /* FleckFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2096335B5FFBFF005FEAD451FE393A7 /* FleckFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA345BB822CB727500178AED /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA345BB722CB727500178AED /* opencv2.framework */; };
+		AA345BBD22CB75E100178AED /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA345BBC22CB75E100178AED /* AssetsLibrary.framework */; };
 		AA60735C22BFA93400E8C6DD /* FleckCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA60735922BFA93400E8C6DD /* FleckCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA60735D22BFA93400E8C6DD /* FleckCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA60735A22BFA93400E8C6DD /* FleckCameraViewController.m */; };
+		AA60735D22BFA93400E8C6DD /* FleckCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA60735A22BFA93400E8C6DD /* FleckCameraViewController.mm */; };
 		AA60735E22BFA93400E8C6DD /* FleckCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA60735B22BFA93400E8C6DD /* FleckCameraViewController.xib */; };
+		AA77CEFC22CB175300298DD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AA77CEFE22CB177C00298DD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA77CEFD22CB177C00298DD4 /* UIKit.framework */; };
 		ED4BD1B73A2D9F237F6469FEF374B9E7 /* Pods-FleckFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E4125744C440931A5C3EAA85950D26 /* Pods-FleckFramework_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -65,9 +118,61 @@
 		A7C3A027BD7F7B8D659C4E0059339E8F /* Pods-FleckFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FleckFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A8955D3202E13554C961EE4AA4EB47C4 /* FleckFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FleckFramework.xcconfig; sourceTree = "<group>"; };
 		AA33363D22C502B200514AB7 /* FleckFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FleckFramework.swift; path = FleckFramework/Classes/FleckFramework.swift; sourceTree = "<group>"; };
+		AA33364E22C5F2C700514AB7 /* FRFXLLExport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FRFXLLExport.cpp; sourceTree = "<group>"; };
+		AA33364F22C5F2C700514AB7 /* FRFXLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRFXLL.h; sourceTree = "<group>"; };
+		AA33365022C5F2C700514AB7 /* fjfx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fjfx.cpp; sourceTree = "<group>"; };
+		AA33365122C5F2C700514AB7 /* FRFXLLCreateFeatureSetFromRaw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FRFXLLCreateFeatureSetFromRaw.cpp; sourceTree = "<group>"; };
+		AA33365322C5F2C700514AB7 /* assignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assignment.h; sourceTree = "<group>"; };
+		AA33365422C5F2C700514AB7 /* FingerImageRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerImageRecord.h; sourceTree = "<group>"; };
+		AA33365522C5F2C700514AB7 /* freeman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freeman.h; sourceTree = "<group>"; };
+		AA33365622C5F2C700514AB7 /* dpTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dpTypes.h; sourceTree = "<group>"; };
+		AA33365722C5F2C700514AB7 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		AA33365822C5F2C700514AB7 /* dpError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dpError.h; sourceTree = "<group>"; };
+		AA33365922C5F2C700514AB7 /* ScaleFactors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleFactors.h; sourceTree = "<group>"; };
+		AA33365A22C5F2C700514AB7 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		AA33365B22C5F2C700514AB7 /* _epilog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _epilog.h; sourceTree = "<group>"; };
+		AA33365C22C5F2C700514AB7 /* intmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intmath.h; sourceTree = "<group>"; };
+		AA33365D22C5F2C700514AB7 /* matchData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matchData.h; sourceTree = "<group>"; };
+		AA33365E22C5F2C700514AB7 /* _range_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _range_errors.h; sourceTree = "<group>"; };
+		AA33365F22C5F2C700514AB7 /* block_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block_fft.h; sourceTree = "<group>"; };
+		AA33366022C5F2C700514AB7 /* _cstdlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _cstdlib.h; sourceTree = "<group>"; };
+		AA33366122C5F2C700514AB7 /* fixed_allocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixed_allocator.h; sourceTree = "<group>"; };
+		AA33366222C5F2C700514AB7 /* member_comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = member_comp.h; sourceTree = "<group>"; };
+		AA33366322C5F2C700514AB7 /* extract_minutia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extract_minutia.h; sourceTree = "<group>"; };
+		AA33366422C5F2C700514AB7 /* static_assert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = static_assert.h; sourceTree = "<group>"; };
+		AA33366522C5F2C700514AB7 /* user_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user_config.h; sourceTree = "<group>"; };
+		AA33366622C5F2C700514AB7 /* serializeFpData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serializeFpData.h; sourceTree = "<group>"; };
+		AA33366722C5F2C700514AB7 /* _system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _system.h; sourceTree = "<group>"; };
+		AA33366822C5F2C700514AB7 /* imresize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imresize.h; sourceTree = "<group>"; };
+		AA33366922C5F2C700514AB7 /* FeatureExtraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeatureExtraction.h; sourceTree = "<group>"; };
+		AA33366A22C5F2C700514AB7 /* integer_limits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = integer_limits.h; sourceTree = "<group>"; };
+		AA33366B22C5F2C700514AB7 /* fft_enhance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fft_enhance.h; sourceTree = "<group>"; };
+		AA33366C22C5F2C700514AB7 /* IncludeFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncludeFirst.h; sourceTree = "<group>"; };
+		AA33366D22C5F2C700514AB7 /* orimap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orimap.h; sourceTree = "<group>"; };
+		AA33366E22C5F2C700514AB7 /* dpfr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dpfr.h; sourceTree = "<group>"; };
+		AA33366F22C5F2C700514AB7 /* diagnostics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diagnostics.h; sourceTree = "<group>"; };
+		AA33367022C5F2C700514AB7 /* delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delay.h; sourceTree = "<group>"; };
+		AA33367122C5F2C700514AB7 /* top_n.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = top_n.h; sourceTree = "<group>"; };
+		AA33367222C5F2C700514AB7 /* conv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conv2.h; sourceTree = "<group>"; };
+		AA33367322C5F2C700514AB7 /* biffilt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = biffilt.h; sourceTree = "<group>"; };
+		AA33367422C5F2C700514AB7 /* complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = complex.h; sourceTree = "<group>"; };
+		AA33367522C5F2C700514AB7 /* stl_armcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stl_armcc.h; sourceTree = "<group>"; };
+		AA33367622C5F2C700514AB7 /* deserializeFpData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deserializeFpData.h; sourceTree = "<group>"; };
+		AA33367722C5F2C700514AB7 /* CreateFtrSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateFtrSet.h; sourceTree = "<group>"; };
+		AA33367822C5F2C700514AB7 /* _cmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _cmath.h; sourceTree = "<group>"; };
+		AA33367922C5F2C700514AB7 /* FRFXLLCreateContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FRFXLLCreateContext.cpp; sourceTree = "<group>"; };
+		AA33367A22C5F2C700514AB7 /* FRFXLL_Results.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRFXLL_Results.h; sourceTree = "<group>"; };
+		AA33367B22C5F2C700514AB7 /* fjfx.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fjfx.hpp; sourceTree = "<group>"; };
+		AA33367C22C5F2C700514AB7 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		AA33367D22C5F2C700514AB7 /* FRFXLLCreateFeatureSetInPlaceFromRaw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FRFXLLCreateFeatureSetInPlaceFromRaw.cpp; sourceTree = "<group>"; };
+		AA33367E22C5F2C700514AB7 /* FRFXLLCreateLibraryContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FRFXLLCreateLibraryContext.cpp; sourceTree = "<group>"; };
+		AA33367F22C5F2C700514AB7 /* FpDataObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FpDataObj.h; sourceTree = "<group>"; };
+		AA345BB722CB727500178AED /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		AA345BBC22CB75E100178AED /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
 		AA60735922BFA93400E8C6DD /* FleckCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FleckCameraViewController.h; path = FleckFramework/Classes/FleckCameraViewController.h; sourceTree = "<group>"; };
-		AA60735A22BFA93400E8C6DD /* FleckCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FleckCameraViewController.m; path = FleckFramework/Classes/FleckCameraViewController.m; sourceTree = "<group>"; };
+		AA60735A22BFA93400E8C6DD /* FleckCameraViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = FleckCameraViewController.mm; path = FleckFramework/Classes/FleckCameraViewController.mm; sourceTree = "<group>"; };
 		AA60735B22BFA93400E8C6DD /* FleckCameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FleckCameraViewController.xib; path = FleckFramework/Classes/FleckCameraViewController.xib; sourceTree = "<group>"; };
+		AA77CEFD22CB177C00298DD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B2E4125744C440931A5C3EAA85950D26 /* Pods-FleckFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FleckFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		B751DB10671AA9F05341C03F21ED24CD /* Pods-FleckFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleckFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BFADEE5FB220034A66CF3F87DF977010 /* Pods-FleckFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleckFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,7 +188,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E5B041EE09CC532CC58596C2BC51675 /* Foundation.framework in Frameworks */,
+				AA77CEFE22CB177C00298DD4 /* UIKit.framework in Frameworks */,
+				AA77CEFC22CB175300298DD4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +197,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA345BBD22CB75E100178AED /* AssetsLibrary.framework in Frameworks */,
+				AA345BB822CB727500178AED /* opencv2.framework in Frameworks */,
 				7A3F4B907413D476B058C02640D19B4D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +242,70 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		AA33364D22C5F2C700514AB7 /* biometricModule */ = {
+			isa = PBXGroup;
+			children = (
+				AA33364E22C5F2C700514AB7 /* FRFXLLExport.cpp */,
+				AA33364F22C5F2C700514AB7 /* FRFXLL.h */,
+				AA33365022C5F2C700514AB7 /* fjfx.cpp */,
+				AA33365122C5F2C700514AB7 /* FRFXLLCreateFeatureSetFromRaw.cpp */,
+				AA33365222C5F2C700514AB7 /* algorithm */,
+				AA33367922C5F2C700514AB7 /* FRFXLLCreateContext.cpp */,
+				AA33367A22C5F2C700514AB7 /* FRFXLL_Results.h */,
+				AA33367B22C5F2C700514AB7 /* fjfx.hpp */,
+				AA33367C22C5F2C700514AB7 /* Object.h */,
+				AA33367D22C5F2C700514AB7 /* FRFXLLCreateFeatureSetInPlaceFromRaw.cpp */,
+				AA33367E22C5F2C700514AB7 /* FRFXLLCreateLibraryContext.cpp */,
+				AA33367F22C5F2C700514AB7 /* FpDataObj.h */,
+			);
+			path = biometricModule;
+			sourceTree = "<group>";
+		};
+		AA33365222C5F2C700514AB7 /* algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				AA33365322C5F2C700514AB7 /* assignment.h */,
+				AA33365422C5F2C700514AB7 /* FingerImageRecord.h */,
+				AA33365522C5F2C700514AB7 /* freeman.h */,
+				AA33365622C5F2C700514AB7 /* dpTypes.h */,
+				AA33365722C5F2C700514AB7 /* version.h */,
+				AA33365822C5F2C700514AB7 /* dpError.h */,
+				AA33365922C5F2C700514AB7 /* ScaleFactors.h */,
+				AA33365A22C5F2C700514AB7 /* settings.h */,
+				AA33365B22C5F2C700514AB7 /* _epilog.h */,
+				AA33365C22C5F2C700514AB7 /* intmath.h */,
+				AA33365D22C5F2C700514AB7 /* matchData.h */,
+				AA33365E22C5F2C700514AB7 /* _range_errors.h */,
+				AA33365F22C5F2C700514AB7 /* block_fft.h */,
+				AA33366022C5F2C700514AB7 /* _cstdlib.h */,
+				AA33366122C5F2C700514AB7 /* fixed_allocator.h */,
+				AA33366222C5F2C700514AB7 /* member_comp.h */,
+				AA33366322C5F2C700514AB7 /* extract_minutia.h */,
+				AA33366422C5F2C700514AB7 /* static_assert.h */,
+				AA33366522C5F2C700514AB7 /* user_config.h */,
+				AA33366622C5F2C700514AB7 /* serializeFpData.h */,
+				AA33366722C5F2C700514AB7 /* _system.h */,
+				AA33366822C5F2C700514AB7 /* imresize.h */,
+				AA33366922C5F2C700514AB7 /* FeatureExtraction.h */,
+				AA33366A22C5F2C700514AB7 /* integer_limits.h */,
+				AA33366B22C5F2C700514AB7 /* fft_enhance.h */,
+				AA33366C22C5F2C700514AB7 /* IncludeFirst.h */,
+				AA33366D22C5F2C700514AB7 /* orimap.h */,
+				AA33366E22C5F2C700514AB7 /* dpfr.h */,
+				AA33366F22C5F2C700514AB7 /* diagnostics.h */,
+				AA33367022C5F2C700514AB7 /* delay.h */,
+				AA33367122C5F2C700514AB7 /* top_n.h */,
+				AA33367222C5F2C700514AB7 /* conv2.h */,
+				AA33367322C5F2C700514AB7 /* biffilt.h */,
+				AA33367422C5F2C700514AB7 /* complex.h */,
+				AA33367522C5F2C700514AB7 /* stl_armcc.h */,
+				AA33367622C5F2C700514AB7 /* deserializeFpData.h */,
+				AA33367722C5F2C700514AB7 /* CreateFtrSet.h */,
+				AA33367822C5F2C700514AB7 /* _cmath.h */,
+			);
+			path = algorithm;
+			sourceTree = "<group>";
+		};
 		ACB462AD991D5CA84187FD794BC0D29C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,10 +342,11 @@
 		CEFF14C96F7D4C38C6656302BA957FE6 /* FleckFramework */ = {
 			isa = PBXGroup;
 			children = (
+				AA33364D22C5F2C700514AB7 /* biometricModule */,
 				3099A2F17CF3F95C33DCC18F71EA05C8 /* Pod */,
 				FEC9A09C711BAE58C41A2589E9BA5571 /* Support Files */,
 				AA60735922BFA93400E8C6DD /* FleckCameraViewController.h */,
-				AA60735A22BFA93400E8C6DD /* FleckCameraViewController.m */,
+				AA60735A22BFA93400E8C6DD /* FleckCameraViewController.mm */,
 				AA60735B22BFA93400E8C6DD /* FleckCameraViewController.xib */,
 				AA33363D22C502B200514AB7 /* FleckFramework.swift */,
 			);
@@ -195,6 +368,9 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA345BBC22CB75E100178AED /* AssetsLibrary.framework */,
+				AA345BB722CB727500178AED /* opencv2.framework */,
+				AA77CEFD22CB177C00298DD4 /* UIKit.framework */,
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
@@ -238,6 +414,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA345BB622CB678200178AED /* FleckFramework-umbrella.h in Headers */,
 				51E78BD4E76744666D51A3198AF999B2 /* Pods-FleckFramework_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,9 +423,52 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3336FB22C5F2C700514AB7 /* _cmath.h in Headers */,
+				AA3336DF22C5F2C700514AB7 /* intmath.h in Headers */,
+				AA3336D922C5F2C700514AB7 /* dpTypes.h in Headers */,
+				AA3336EF22C5F2C700514AB7 /* IncludeFirst.h in Headers */,
+				AA3336D322C5F2C700514AB7 /* FRFXLL.h in Headers */,
 				AA33363C22C4F2E100514AB7 /* FleckCameraViewController.xib in Headers */,
+				AA3336D722C5F2C700514AB7 /* FingerImageRecord.h in Headers */,
+				AA3336E422C5F2C700514AB7 /* fixed_allocator.h in Headers */,
+				AA3336FF22C5F2C700514AB7 /* Object.h in Headers */,
+				AA3336FE22C5F2C700514AB7 /* fjfx.hpp in Headers */,
+				AA3336DA22C5F2C700514AB7 /* version.h in Headers */,
+				AA3336FA22C5F2C700514AB7 /* CreateFtrSet.h in Headers */,
+				AA3336F122C5F2C700514AB7 /* dpfr.h in Headers */,
+				AA3336E922C5F2C700514AB7 /* serializeFpData.h in Headers */,
+				AA3336F922C5F2C700514AB7 /* deserializeFpData.h in Headers */,
+				AA3336DE22C5F2C700514AB7 /* _epilog.h in Headers */,
+				AA3336ED22C5F2C700514AB7 /* integer_limits.h in Headers */,
+				AA3336E722C5F2C700514AB7 /* static_assert.h in Headers */,
+				AA3336DC22C5F2C700514AB7 /* ScaleFactors.h in Headers */,
 				AA60735C22BFA93400E8C6DD /* FleckCameraViewController.h in Headers */,
+				AA3336F222C5F2C700514AB7 /* diagnostics.h in Headers */,
+				AA3336F322C5F2C700514AB7 /* delay.h in Headers */,
+				AA3336EB22C5F2C700514AB7 /* imresize.h in Headers */,
+				AA3336F622C5F2C700514AB7 /* biffilt.h in Headers */,
+				AA3336EC22C5F2C700514AB7 /* FeatureExtraction.h in Headers */,
+				AA3336EE22C5F2C700514AB7 /* fft_enhance.h in Headers */,
+				AA3336F022C5F2C700514AB7 /* orimap.h in Headers */,
+				AA3336F522C5F2C700514AB7 /* conv2.h in Headers */,
+				AA3336E822C5F2C700514AB7 /* user_config.h in Headers */,
 				2A16C38D9DB33E93CABF40708161CCC5 /* FleckFramework-umbrella.h in Headers */,
+				AA3336EA22C5F2C700514AB7 /* _system.h in Headers */,
+				AA3336E322C5F2C700514AB7 /* _cstdlib.h in Headers */,
+				AA33370222C5F2C700514AB7 /* FpDataObj.h in Headers */,
+				AA3336E222C5F2C700514AB7 /* block_fft.h in Headers */,
+				AA3336DB22C5F2C700514AB7 /* dpError.h in Headers */,
+				AA3336F722C5F2C700514AB7 /* complex.h in Headers */,
+				AA3336E622C5F2C700514AB7 /* extract_minutia.h in Headers */,
+				AA3336DD22C5F2C700514AB7 /* settings.h in Headers */,
+				AA3336E022C5F2C700514AB7 /* matchData.h in Headers */,
+				AA3336E122C5F2C700514AB7 /* _range_errors.h in Headers */,
+				AA3336FD22C5F2C700514AB7 /* FRFXLL_Results.h in Headers */,
+				AA3336F422C5F2C700514AB7 /* top_n.h in Headers */,
+				AA3336F822C5F2C700514AB7 /* stl_armcc.h in Headers */,
+				AA3336E522C5F2C700514AB7 /* member_comp.h in Headers */,
+				AA3336D622C5F2C700514AB7 /* assignment.h in Headers */,
+				AA3336D822C5F2C700514AB7 /* freeman.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,8 +618,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3336D522C5F2C700514AB7 /* FRFXLLCreateFeatureSetFromRaw.cpp in Sources */,
 				1E5456EB25625E6E450C9A0EFB5A720F /* FleckFramework-dummy.m in Sources */,
-				AA60735D22BFA93400E8C6DD /* FleckCameraViewController.m in Sources */,
+				AA3336FC22C5F2C700514AB7 /* FRFXLLCreateContext.cpp in Sources */,
+				AA33370122C5F2C700514AB7 /* FRFXLLCreateLibraryContext.cpp in Sources */,
+				AA3336D222C5F2C700514AB7 /* FRFXLLExport.cpp in Sources */,
+				AA60735D22BFA93400E8C6DD /* FleckCameraViewController.mm in Sources */,
+				AA33370022C5F2C700514AB7 /* FRFXLLCreateFeatureSetInPlaceFromRaw.cpp in Sources */,
+				AA3336D422C5F2C700514AB7 /* fjfx.cpp in Sources */,
 				AA33363E22C502B200514AB7 /* FleckFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +744,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A8955D3202E13554C961EE4AA4EB47C4 /* FleckFramework.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -528,11 +756,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"\"$(SRCROOT)/../../../../fleckCode_/LogoDetector/opencv2.framework\"",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "Target Support Files/FleckFramework/FleckFramework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FleckFramework/FleckFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(BUILT_PRODUCTS_DIR)/opencv2";
 				MODULEMAP_FILE = "Target Support Files/FleckFramework/FleckFramework.modulemap";
 				PRODUCT_MODULE_NAME = FleckFramework;
 				PRODUCT_NAME = FleckFramework;
@@ -685,6 +920,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A8955D3202E13554C961EE4AA4EB47C4 /* FleckFramework.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -695,11 +932,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"\"$(SRCROOT)/../../../../fleckCode_/LogoDetector/opencv2.framework\"",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "Target Support Files/FleckFramework/FleckFramework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FleckFramework/FleckFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(BUILT_PRODUCTS_DIR)/opencv2";
 				MODULEMAP_FILE = "Target Support Files/FleckFramework/FleckFramework.modulemap";
 				PRODUCT_MODULE_NAME = FleckFramework;
 				PRODUCT_NAME = FleckFramework;
@@ -736,6 +980,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FleckFramework_Tests/Pods-FleckFramework_Tests.modulemap";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";

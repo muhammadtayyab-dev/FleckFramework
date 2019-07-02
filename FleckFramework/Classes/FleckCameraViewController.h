@@ -6,18 +6,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <opencv2/highgui/cap_ios.h>
 
-NS_ASSUME_NONNULL_BEGIN
 @protocol FleckCallBack
 +(void) sendData:(NSString *)biometricTemplate finger:(NSString *)index ;
 @end
-@interface FleckCameraViewController : UIViewController
+@interface FleckCameraViewController : UIViewController <UIAlertViewDelegate, CvVideoCameraDelegate>
     @property (weak, nonatomic) IBOutlet UIImageView *img;
     @property (nonatomic, retain) NSString *cnicData;
     @property (nonatomic, retain) NSString *finger;
-    @property (nonatomic, retain) NSString *contact;
     @property (atomic) int *qualityThreash;
     @property (nonatomic, weak) id<FleckCallBack> delegate_;
 @end
 
-NS_ASSUME_NONNULL_END

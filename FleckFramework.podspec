@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Invisible1/FleckFramework.git' } #, :tag => s.version.to_s
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'FleckFramework/Classes/**/*'
   
@@ -36,12 +36,18 @@ TODO: Add long description of the pod here.
     'FleckFramework' => ['FleckFramework/Classes/**/*.{storyboard,xib}']
   }
   s.requires_arc = true
-  
+  s.static_framework = true
   # s.resource_bundles = {
   #   'FleckFramework' => ['FleckFramework/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'AVFoundation', 'AssetsLibrary'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'OpenCV', '~> 3.4'
+  # s.preserve_paths = '*.framework'
+  s.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO','OTHER_LDFLAGS' => '-lObjC'}
+  # s.vendored_frameworks = 'FleckFramework.framework'
+  s.library = 'c++'
+
 end
