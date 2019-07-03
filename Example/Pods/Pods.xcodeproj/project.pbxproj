@@ -66,13 +66,13 @@
 		AA33370122C5F2C700514AB7 /* FRFXLLCreateLibraryContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA33367E22C5F2C700514AB7 /* FRFXLLCreateLibraryContext.cpp */; };
 		AA33370222C5F2C700514AB7 /* FpDataObj.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33367F22C5F2C700514AB7 /* FpDataObj.h */; };
 		AA345BB622CB678200178AED /* FleckFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2096335B5FFBFF005FEAD451FE393A7 /* FleckFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA345BB822CB727500178AED /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA345BB722CB727500178AED /* opencv2.framework */; };
 		AA345BBD22CB75E100178AED /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA345BBC22CB75E100178AED /* AssetsLibrary.framework */; };
 		AA60735C22BFA93400E8C6DD /* FleckCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA60735922BFA93400E8C6DD /* FleckCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA60735D22BFA93400E8C6DD /* FleckCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA60735A22BFA93400E8C6DD /* FleckCameraViewController.mm */; };
 		AA60735E22BFA93400E8C6DD /* FleckCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA60735B22BFA93400E8C6DD /* FleckCameraViewController.xib */; };
 		AA77CEFC22CB175300298DD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AA77CEFE22CB177C00298DD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA77CEFD22CB177C00298DD4 /* UIKit.framework */; };
+		AAE105BE22CC88B100FB9D7D /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE105BD22CC88B100FB9D7D /* opencv2.framework */; };
 		ED4BD1B73A2D9F237F6469FEF374B9E7 /* Pods-FleckFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E4125744C440931A5C3EAA85950D26 /* Pods-FleckFramework_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -166,12 +166,12 @@
 		AA33367D22C5F2C700514AB7 /* FRFXLLCreateFeatureSetInPlaceFromRaw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FRFXLLCreateFeatureSetInPlaceFromRaw.cpp; sourceTree = "<group>"; };
 		AA33367E22C5F2C700514AB7 /* FRFXLLCreateLibraryContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FRFXLLCreateLibraryContext.cpp; sourceTree = "<group>"; };
 		AA33367F22C5F2C700514AB7 /* FpDataObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FpDataObj.h; sourceTree = "<group>"; };
-		AA345BB722CB727500178AED /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		AA345BBC22CB75E100178AED /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
 		AA60735922BFA93400E8C6DD /* FleckCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FleckCameraViewController.h; path = FleckFramework/Classes/FleckCameraViewController.h; sourceTree = "<group>"; };
 		AA60735A22BFA93400E8C6DD /* FleckCameraViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = FleckCameraViewController.mm; path = FleckFramework/Classes/FleckCameraViewController.mm; sourceTree = "<group>"; };
 		AA60735B22BFA93400E8C6DD /* FleckCameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FleckCameraViewController.xib; path = FleckFramework/Classes/FleckCameraViewController.xib; sourceTree = "<group>"; };
 		AA77CEFD22CB177C00298DD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AAE105BD22CC88B100FB9D7D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		B2E4125744C440931A5C3EAA85950D26 /* Pods-FleckFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FleckFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		B751DB10671AA9F05341C03F21ED24CD /* Pods-FleckFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleckFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BFADEE5FB220034A66CF3F87DF977010 /* Pods-FleckFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleckFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -195,8 +195,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE105BE22CC88B100FB9D7D /* opencv2.framework in Frameworks */,
 				AA345BBD22CB75E100178AED /* AssetsLibrary.framework in Frameworks */,
-				AA345BB822CB727500178AED /* opencv2.framework in Frameworks */,
 				7A3F4B907413D476B058C02640D19B4D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,8 +364,8 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AAE105BD22CC88B100FB9D7D /* opencv2.framework */,
 				AA345BBC22CB75E100178AED /* AssetsLibrary.framework */,
-				AA345BB722CB727500178AED /* opencv2.framework */,
 				AA77CEFD22CB177C00298DD4 /* UIKit.framework */,
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
@@ -547,12 +547,13 @@
 					};
 				};
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 0F92BF07E25263B0D3513ED5248E7FE6 /* Products */;
@@ -711,6 +712,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -723,6 +725,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -731,6 +734,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -882,6 +886,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -897,6 +902,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -907,6 +913,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -1000,7 +1007,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,

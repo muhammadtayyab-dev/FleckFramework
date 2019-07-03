@@ -14,7 +14,6 @@
 FOUNDATION_EXPORT double FleckFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char FleckFrameworkVersionString[];
 #import <FleckFramework/FleckCameraViewController.h>
-
 #import <opencv2/highgui/cap_ios.h>
 
 

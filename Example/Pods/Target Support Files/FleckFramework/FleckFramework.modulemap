@@ -1,10 +1,7 @@
 framework module FleckFramework {
   umbrella header "FleckFramework-umbrella.h"
+  //header "$(SCRROOT)/FleckFramework/Example/Pods/opencv2.framework/Headers/highgui/cap_ios.h"
   export *
   module * { export * }
 }
 
-module AwesomeKitPrivate {
-    header "/Users/aksasds/Documents/development/Fleck Final Code/createCocoapodsLib/FleckFramework/Example/Pods/opencv2.framework/Headers/highgui/cap_ios.h"
-    export *
-}

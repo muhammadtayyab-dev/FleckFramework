@@ -42,9 +42,11 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'AVFoundation', 'AssetsLibrary'
+  s.frameworks = 'UIKit', 'AVFoundation', 'AssetsLibrary', 'opencv2'
+  #s.pod_target_xcconfig = {'FRAMEWORK_SEARCH_PATHS' => '/Applications/Xcode_10.0.app/Contents/Developer/Library/Frameworks/'}
+  #s.vendored_frameworks = 'opencv2.framework'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'OpenCV', '~> 3.4'
+  s.dependency 'OpenCV'
   # s.preserve_paths = '*.framework'
   s.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO','OTHER_LDFLAGS' => '-lObjC'}
   # s.vendored_frameworks = 'FleckFramework.framework'
