@@ -2,7 +2,7 @@
 //  FleckCameraViewController.m
 //  FleckFramework
 //
-//  Created by AKSA SDS on 23/06/2019.
+//  Created by Muhammad Tayyab on 23/06/2019.
 //
 
 #import "FleckCameraViewController.h"
